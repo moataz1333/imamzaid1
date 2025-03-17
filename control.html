@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>لوحة التحكم</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .admin-form {
+            max-width: 500px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: #f8f8f8;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <form class="admin-form" id="adminForm">
+        <input type="password" placeholder="كلمة السر" required>
+        <input type="text" placeholder="اسم الطالب" required>
+        <input type="text" placeholder="اسم الحلقة" required>
+        <input type="date" required>
+        <textarea placeholder="التفاصيل"></textarea>
+        <button type="submit">حفظ</button>
+    </form>
+    
+    <script src="admin.js"></script>
+</body>
+</html>
